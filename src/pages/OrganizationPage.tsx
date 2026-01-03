@@ -24,7 +24,7 @@ export default function OrganizationPage() {
             </h2>
             <ul className="space-y-2 text-gray-700">
               <li>Gary Bader, University of Toronto</li>
-              <li>Additional speakers to be announced</li>
+              <li>James Cimino, University of Alabama at Birmingham</li>
             </ul>
           </div>
 
@@ -44,9 +44,7 @@ export default function OrganizationPage() {
               Steering Committee
             </h2>
             <ul className="space-y-2 text-gray-700">
-              <li>Marc Halterman, SUNY Buffalo</li>
-              <li>Mattia Prosperi, University of Florida</li>
-              <li>Jinjun Xiong, SUNY Buffalo</li>
+              <li>Peter Elkin, SUNY Buffalo</li>
             </ul>
           </div>
 
@@ -63,10 +61,29 @@ export default function OrganizationPage() {
 
           <div className="bg-white border-2 border-gray-200 rounded p-8">
             <h2 className="text-2xl font-bold text-gray-800 mb-4 pb-3 border-b-2 border-[#005bbb]">
-              Workshop and Tutorial Committee
+              Workshop Committee
             </h2>
             <ul className="space-y-2 text-gray-700">
               <li>Leng Han, Indiana University</li>
+              <li>Juilee Thakar, University of Rochester</li>
+              <li>Li Zhao, Rockefeller University</li>
+              <li>Lei Li, Shenzhen Bay Laboratory</li>
+              <li>Yijie Wang, Indiana University</li>
+              <li>Wanding Zhou, Children Hospital of Philadelphia</li>
+              <li>Yuehua Cui, Michigan State University</li>
+              <li>Xueqiu Lin, Fred Hutchinson Cancer Center</li>
+            </ul>
+          </div>
+
+          <div className="bg-white border-2 border-gray-200 rounded p-8">
+            <h2 className="text-2xl font-bold text-gray-800 mb-4 pb-3 border-b-2 border-[#005bbb]">
+              Tutorial Committee
+            </h2>
+            <ul className="space-y-2 text-gray-700">
+              <li>Daofeng Li, Washington University in St. Louis</li>
+              <li>Maximilian Haeussler, UCSC Genome Browser</li>
+              <li>Riyue Bao, University of Pittsburgh</li>
+              <li>Qiyun Zhu, Arizona State University</li>
             </ul>
           </div>
 

@@ -10,9 +10,10 @@ export default function TravelPage() {
               Conference Venue
             </h2>
             <div className="text-gray-700 space-y-2">
-              <p className="font-semibold text-lg">University at Buffalo</p>
-              <p>Buffalo, New York 14260</p>
-              <p>United States</p>
+              <p className="font-semibold text-lg">Jacobs School of Medicine and Biomedical Sciences</p>
+              <p>University at Buffalo</p>
+              <p>955 Main Street</p>
+              <p>Buffalo, NY 14203-1121</p>
             </div>
           </div>
 
@@ -25,9 +26,9 @@ export default function TravelPage() {
                 <h3 className="font-bold mb-2">By Air</h3>
                 <p>
                   Buffalo Niagara International Airport (BUF) is located
-                  approximately 15 miles from the University at Buffalo campus.
-                  The airport offers numerous daily flights from major cities
-                  across North America.
+                  approximately 15 miles from the University at Buffalo downtown
+                  campus. The airport offers numerous daily flights from major
+                  cities across North America.
                 </p>
               </div>
               <div>

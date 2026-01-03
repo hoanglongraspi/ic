@@ -10,10 +10,10 @@ export default function ContactPage() {
           <p className="text-lg text-gray-700 mb-8">
             For general information please contact us at{" "}
             <a
-              href="mailto:icibm2026@gmail.com"
+              href="mailto:icibm.common@gmail.com"
               className="text-[#005bbb] hover:underline font-semibold"
             >
-              icibm2026@gmail.com
+              icibm.common@gmail.com
             </a>
           </p>
 

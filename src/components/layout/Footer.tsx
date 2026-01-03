@@ -11,10 +11,10 @@ export default function Footer() {
               <p className="flex items-center gap-2">
                 <Mail size={16} />
                 <a
-                  href="mailto:icibm2026@gmail.com"
+                  href="mailto:icibm.common@gmail.com"
                   className="hover:text-white"
                 >
-                  icibm2026@gmail.com
+                  icibm.common@gmail.com
                 </a>
               </p>
             </div>
@@ -23,9 +23,10 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-bold mb-4">Conference Venue</h3>
             <div className="space-y-2 text-gray-300">
+              <p>Jacobs School of Medicine and Biomedical Sciences</p>
               <p>University at Buffalo</p>
-              <p>Buffalo, New York</p>
-              <p>United States</p>
+              <p>955 Main Street</p>
+              <p>Buffalo, NY 14203-1121</p>
             </div>
           </div>
 

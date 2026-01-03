@@ -18,10 +18,10 @@ export default function RegistrationPage() {
             Registration Opens
           </h2>
           <p className="text-gray-700 mb-4">
-            Early registration opens on <strong>June 1, 2026</strong>.
+            Early registration opens on <strong>June 10, 2026</strong>.
           </p>
           <p className="text-gray-700">
-            Early registration deadline is <strong>July 1, 2026</strong>.
+            Early registration deadline is <strong>July 10, 2026</strong>.
           </p>
         </div>
       </div>

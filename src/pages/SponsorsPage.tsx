@@ -11,10 +11,10 @@ export default function SponsorsPage() {
           <p className="text-gray-700">
             For sponsorship opportunities, please contact us at{" "}
             <a
-              href="mailto:icibm2026@gmail.com"
+              href="mailto:icibm.common@gmail.com"
               className="text-[#005bbb] hover:underline font-semibold"
             >
-              icibm2026@gmail.com
+              icibm.common@gmail.com
             </a>
           </p>
         </div>

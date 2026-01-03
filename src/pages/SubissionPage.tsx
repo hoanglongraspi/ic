@@ -50,7 +50,7 @@ export default function SubmissionPage() {
           <p className="text-gray-700 text-lg">
             We invite you to submit papers and abstracts presenting original,
             unpublished work that describes recent advances in all areas of
-            bioinformatics, artificial intelligence, systems biology, and
+            bioinformatics, genomics, AI, systems biology, computational biology, and
             biomedical informatics.
           </p>
         </div>
@@ -130,12 +130,10 @@ export default function SubmissionPage() {
                 work to ICIBM 2026. Selected papers from registered authors will
                 be considered for publication in special issues of{" "}
                 <strong>Briefings in Bioinformatics</strong>,{" "}
-                <strong>Frontiers in Genetics</strong>,<strong> Cancers</strong>
-                , and the{" "}
-                <strong>
-                  Computational and Structural Biotechnology Journal
-                </strong>
-                .
+                <strong>Cancers</strong>,{" "}
+                <strong>Computational and Structural Biotechnology Journal</strong>,{" "}
+                <strong>Frontiers in Genetics</strong>, and{" "}
+                <strong>Genes</strong>.
               </p>
             </div>
           </div>
@@ -154,10 +152,10 @@ export default function SubmissionPage() {
               <p>
                 Please submit your abstract to{" "}
                 <a
-                  href="mailto:icibm2026@gmail.com"
+                  href="mailto:icibm.common@gmail.com"
                   className="text-[#005bbb] hover:underline font-semibold"
                 >
-                  icibm2026@gmail.com
+                  icibm.common@gmail.com
                 </a>
               </p>
             </div>

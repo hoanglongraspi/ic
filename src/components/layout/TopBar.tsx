@@ -17,11 +17,11 @@ export default function TopBar() {
         </div>
 
         <a
-          href="mailto:icibm2026@gmail.com"
+          href="mailto:icibm.common@gmail.com"
           className="flex items-center gap-2 hover:text-gray-200"
         >
           <Mail size={16} />
-          icibm2026@gmail.com
+          icibm.common@gmail.com
         </a>
       </div>
     </div>

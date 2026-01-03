@@ -9,22 +9,22 @@ export default function HomePage() {
       title: "Professor",
       institution: "University of Toronto",
       image:
-        "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop",
+        "/gary01_cropped.webp",
     },
     {
-      name: "To Be Announced",
-      title: "Keynote Speaker",
-      institution: "TBA",
+      name: "James Cimino, M.D.",
+      title: "Professor",
+      institution: "University of Alabama at Birmingham",
       image:
-        "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&h=400&fit=crop",
+        "james.svg",
     },
-    {
-      name: "To Be Announced",
-      title: "Keynote Speaker",
-      institution: "TBA",
-      image:
-        "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop",
-    },
+    // {
+    //   name: "To Be Announced",
+    //   title: "Keynote Speaker",
+    //   institution: "TBA",
+    //   image:
+    //     "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop",
+    // },
   ];
 
   return (
@@ -32,15 +32,15 @@ export default function HomePage() {
       <section className="relative bg-gradient-to-r from-[#005bbb] to-[#003d7a] text-white overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://www.buffalo.edu/content/www/advancement/work-with-us/about-the-university/_jcr_content/par/image_386387655.img.1920.612.jpg/1654610309624.jpg"
+            src="https://nursing.buffalo.edu/content/nursing/about-us/about-the-university/_jcr_content/par/image_1.img.original.jpg/1655303197963.jpg"
             alt="University at Buffalo Campus"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-black/40"></div>
+          <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/50 to-black/70"></div>
         </div>
 
         <div className="max-w-7xl mx-auto px-4 py-20 relative z-10 text-center">
-          <span className="inline-block px-4 py-2 bg-white/10 rounded text-sm font-medium mb-6">
+          <span className="inline-block px-10 py-5 bg-white/10 rounded-lg text-5xl font-bold mb-10">
             14th International Conference
           </span>
 
@@ -100,11 +100,11 @@ export default function HomePage() {
             </p>
           </div>
 
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="flex flex-wrap justify-center gap-8">
             {keynoteSpeakers.map((speaker, idx) => (
               <div
                 key={idx}
-                className="bg-white border border-gray-200 rounded overflow-hidden hover:shadow-lg transition-shadow"
+                className="bg-white border border-gray-200 rounded overflow-hidden hover:shadow-lg transition-shadow w-full sm:w-80"
               >
                 <div className="h-64 overflow-hidden bg-gray-100">
                   <img
@@ -135,7 +135,7 @@ export default function HomePage() {
           </h2>
           <p className="text-lg text-gray-600 mb-8">
             We invite submissions presenting original advances in
-            bioinformatics, AI, systems biology, and biomedical informatics.
+            bioinformatics, genomics, AI, systems biology, computational biology, and biomedical informatics.
           </p>
           <button
             onClick={() => navigate("/submission")}

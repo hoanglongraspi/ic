@@ -3,8 +3,8 @@ export default function Calendar() {
     { event: "Paper Submission Deadline", date: "March 31, 2026" },
     { event: "Notification to Authors", date: "June 1, 2026" },
     { event: "Abstract Submission Deadline", date: "June 15, 2026" },
-    { event: "Early Registration Opens", date: "June 1, 2026" },
-    { event: "Early Registration Deadline", date: "July 1, 2026" },
+    { event: "Early Registration Opens", date: "June 10, 2026" },
+    { event: "Early Registration Deadline", date: "July 10, 2026" },
     { event: "ICIBM Conference", date: "August 2-5, 2026" },
   ];
 
