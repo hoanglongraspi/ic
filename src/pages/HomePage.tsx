@@ -134,7 +134,7 @@ export default function HomePage() {
             Call for Papers
           </h2>
           <p className="text-lg text-gray-600 mb-8">
-            We invite submissions presenting original advances in
+            We invite submissions presenting original advances in <br></br>
             bioinformatics, genomics, AI, systems biology, computational biology, and biomedical informatics.
           </p>
           <button
