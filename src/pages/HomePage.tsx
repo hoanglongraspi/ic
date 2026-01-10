@@ -8,23 +8,16 @@ export default function HomePage() {
       name: "Gary Bader, Ph.D.",
       title: "Professor",
       institution: "University of Toronto",
-      image:
-        "/gary01_cropped.webp",
+      image: "/gary01_cropped.webp",
+      homepage: "https://thedonnellycentre.utoronto.ca/faculty/gary-bader",
     },
     {
       name: "James Cimino, M.D.",
       title: "Professor",
       institution: "University of Alabama at Birmingham",
-      image:
-        "james.svg",
+      image: "james.svg",
+      homepage: "https://scholars.uab.edu/2932-james-cimino",
     },
-    // {
-    //   name: "To Be Announced",
-    //   title: "Keynote Speaker",
-    //   institution: "TBA",
-    //   image:
-    //     "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop",
-    // },
   ];
 
   return (
@@ -32,7 +25,7 @@ export default function HomePage() {
       <section className="relative bg-gradient-to-r from-[#005bbb] to-[#003d7a] text-white overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://nursing.buffalo.edu/content/nursing/about-us/about-the-university/_jcr_content/par/image_1.img.original.jpg/1655303197963.jpg"
+            src="/Niagara-5.jpg"
             alt="University at Buffalo Campus"
             className="w-full h-full object-cover"
           />
@@ -40,18 +33,18 @@ export default function HomePage() {
         </div>
 
         <div className="max-w-7xl mx-auto px-4 py-20 relative z-10 text-center">
-          <span className="inline-block px-10 py-5 bg-white/10 rounded-lg text-5xl font-bold mb-10">
+          {/* <span className="inline-block px-10 py-5 bg-white/10 rounded-lg text-5xl font-bold mb-10">
             14th International Conference
-          </span>
+          </span> */}
 
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-            International Conference on
+            14<sup>th</sup> International Conference on
             <br />
             Intelligent Biology and Medicine
           </h1>
 
           <p className="text-lg md:text-xl mb-8 max-w-3xl mx-auto leading-relaxed">
-            ICIBM 2026 brings together leading scholars and experts from
+            ICIBM 2026 brings together leading scholars and experts from AI,
             bioinformatics, computational biology, systems biology,
             computational medicine, and experimental biomedical research. The
             conference provides a collegial and stimulating environment that
@@ -102,9 +95,12 @@ export default function HomePage() {
 
           <div className="flex flex-wrap justify-center gap-8">
             {keynoteSpeakers.map((speaker, idx) => (
-              <div
+              <a
                 key={idx}
-                className="bg-white border border-gray-200 rounded overflow-hidden hover:shadow-lg transition-shadow w-full sm:w-80"
+                href={speaker.homepage}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-white border border-gray-200 rounded overflow-hidden hover:shadow-lg transition-shadow w-full sm:w-80 block"
               >
                 <div className="h-64 overflow-hidden bg-gray-100">
                   <img
@@ -122,7 +118,7 @@ export default function HomePage() {
                     {speaker.institution}
                   </p>
                 </div>
-              </div>
+              </a>
             ))}
           </div>
         </div>
