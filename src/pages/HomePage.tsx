@@ -1,7 +1,28 @@
 import { useNavigate } from "react-router-dom";
+import { useState, useEffect } from "react";
+import { Bell } from "lucide-react";
+import { getAnnouncements } from "../lib/firebase";
+import type { Announcement } from "../lib/firebase";
 
 export default function HomePage() {
   const navigate = useNavigate();
+  const [announcements, setAnnouncements] = useState<Announcement[]>([]);
+  const [isLoadingAnnouncements, setIsLoadingAnnouncements] = useState(true);
+
+  useEffect(() => {
+    loadAnnouncements();
+  }, []);
+
+  const loadAnnouncements = async () => {
+    try {
+      const data = await getAnnouncements();
+      setAnnouncements(data);
+    } catch (error) {
+      console.error("Error loading announcements:", error);
+    } finally {
+      setIsLoadingAnnouncements(false);
+    }
+  };
 
   const keynoteSpeakers = [
     {
@@ -81,6 +102,50 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* Announcements Section */}
+      {!isLoadingAnnouncements && announcements.length > 0 && (
+        <section className="py-16 px-4 bg-white">
+          <div className="max-w-7xl mx-auto">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl font-bold mb-4 text-gray-800">
+                Latest Announcements
+              </h2>
+              <p className="text-lg text-gray-600">
+                Stay updated with the latest conference news
+              </p>
+            </div>
+
+            <div className="max-w-4xl mx-auto space-y-4">
+              {announcements.slice(0, 5).map((announcement) => (
+                <div
+                  key={announcement.id}
+                  className="bg-white border border-gray-200 rounded p-6 hover:shadow-lg transition-shadow"
+                >
+                  <div className="flex items-start gap-4">
+                    <div className="flex-shrink-0 w-12 h-12 bg-[#005bbb] rounded-full flex items-center justify-center">
+                      <Bell className="w-6 h-6 text-white" />
+                    </div>
+                    <div className="flex-1">
+                      <h3 className="font-bold text-lg text-gray-800 mb-2">
+                        {announcement.title}
+                      </h3>
+                      <p className="text-gray-600">{announcement.content}</p>
+                      <p className="text-sm text-[#005bbb] font-semibold mt-3">
+                        {announcement.createdAt?.toDate().toLocaleDateString("en-US", {
+                          year: "numeric",
+                          month: "long",
+                          day: "numeric",
+                        })}
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       <section className="py-16 px-4 bg-white">
         <div className="max-w-7xl mx-auto">

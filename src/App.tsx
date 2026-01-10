@@ -11,6 +11,7 @@ import TravelPage from "./pages/TravelPage";
 import SponsorsPage from "./pages/SponsorsPage";
 import PastConferencesPage from "./pages/PastConferencesPage";
 import ContactPage from "./pages/ContactPage";
+import AdminPage from "./pages/AdminPage";
 
 export default function App() {
   return (
@@ -27,6 +28,7 @@ export default function App() {
           <Route path="/sponsors" element={<SponsorsPage />} />
           <Route path="/past-conferences" element={<PastConferencesPage />} />
           <Route path="/contact" element={<ContactPage />} />
+          <Route path="/admin" element={<AdminPage />} />
         </Routes>
       </Layout>
     </Router>
