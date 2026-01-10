@@ -22,7 +22,7 @@ export default function PastConferencesPage() {
     },
     {
       year: 2021,
-      location: "Virtual",
+      location: "Philadelphia, Pennsylvania",
       url: "https://icibm2021.iaibm.org/",
     },
     {
