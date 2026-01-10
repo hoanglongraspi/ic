@@ -42,9 +42,9 @@ export default function Footer() {
               <Link to="/program" className="block hover:text-white">
                 Program
               </Link>
-              <Link to="/past-conferences" className="block hover:text-white">
+              {/* <Link to="/past-conferences" className="block hover:text-white">
                 Past Conferences
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>
