@@ -14,7 +14,7 @@ export default function MobileMenu({
   if (!open) return null;
 
   return (
-    <div className="lg:hidden bg-white border-t border-gray-200">
+    <div className="lg:hidden bg-white border-t border-gray-200 shadow-lg z-40">
       <div className="px-4 py-4 space-y-2">
         {items.map((item) => (
           <Link

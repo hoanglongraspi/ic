@@ -39,6 +39,13 @@ export default function HomePage() {
       image: "james.svg",
       homepage: "https://scholars.uab.edu/2932-james-cimino",
     },
+    {
+      name: "Mingyao Li, Ph.D.",
+      title: "Professor",
+      institution: "University of Pennsylvania",
+      image: "/li.jpg",
+      homepage: "https://www.med.upenn.edu/apps/faculty/index.php/g275/p8122973",
+    },
   ];
 
   return (
@@ -52,11 +59,11 @@ export default function HomePage() {
           />
           <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/50 to-black/70"></div>
         </div>
-
+          
         <div className="max-w-7xl mx-auto px-4 py-20 relative z-10 text-center">
-          {/* <span className="inline-block px-10 py-5 bg-white/10 rounded-lg text-5xl font-bold mb-10">
-            14th International Conference
-          </span> */}
+          <span className="inline-block px-10 py-5 bg-white/10 rounded-lg text-5xl font-bold mb-10">
+          ICIBM 2026
+          </span>
 
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
             14<sup>th</sup> International Conference on

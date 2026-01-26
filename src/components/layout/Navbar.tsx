@@ -33,7 +33,7 @@ export default function Navbar() {
             </div>
           </Link>
 
-          <div className="hidden xl:flex items-center">
+          <div className="hidden lg:flex items-center">
             {navItems.map((item) => (
               <Link
                 key={item.path}
@@ -51,7 +51,7 @@ export default function Navbar() {
 
           <button
             onClick={() => setOpen(!open)}
-            className="xl:hidden p-2"
+            className="lg:hidden p-2 hover:bg-gray-100 rounded transition-colors"
             aria-label="Toggle menu"
           >
             {open ? <X size={24} /> : <Menu size={24} />}

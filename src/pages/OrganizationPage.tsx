@@ -25,6 +25,7 @@ export default function OrganizationPage() {
             <ul className="space-y-2 text-gray-700">
               <li>Gary Bader, University of Toronto</li>
               <li>James Cimino, University of Alabama at Birmingham</li>
+              <li>Mingyao Li, University of Pennsylvania</li>
             </ul>
           </div>
 
