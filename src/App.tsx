@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Layout from "./components/layout/Layout";
+import ScrollToTop from "./components/ScrollToTop";
 
 import HomePage from "./pages/HomePage";
 import SubmissionPage from "./pages/SubissionPage.tsx";
@@ -16,6 +17,7 @@ import AdminPage from "./pages/AdminPage";
 export default function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Layout>
         <Routes>
           <Route path="/" element={<HomePage />} />
