@@ -27,24 +27,31 @@ export default function HomePage() {
   const keynoteSpeakers = [
     {
       name: "Gary Bader, Ph.D.",
-      title: "Professor",
+      title: "Professor, Department of Molecular Genetics; Ontario Research Chair in Biomarkers of Disease",
       institution: "University of Toronto",
       image: "/gary01_cropped.webp",
       homepage: "https://thedonnellycentre.utoronto.ca/faculty/gary-bader",
     },
     {
       name: "James Cimino, M.D.",
-      title: "Professor",
+      title: "Chairperson and Professor, Department of Biomedical Informatics & Data Science",
       institution: "University of Alabama at Birmingham",
       image: "james.svg",
       homepage: "https://scholars.uab.edu/2932-james-cimino",
     },
     {
       name: "Mingyao Li, Ph.D.",
-      title: "Professor",
+      title: "Professor of Biostatistics in Biostatistics and Epidemiology",
       institution: "University of Pennsylvania",
       image: "/li.jpg",
       homepage: "https://www.med.upenn.edu/apps/faculty/index.php/g275/p8122973",
+    },
+    {
+      name: "Ting Wang, Ph.D.",
+      title: "Distinguished Professor of Medicine and Head, Department of Genetics",
+      institution: "Washington University in St. Louis",
+      image: "/wang.svg",
+      homepage: "https://genetics.wustl.edu/people/ting-wang-phdthe-sanford-and-karen-loewentheil-distinguished-professor-of-medicine-and-head-department-of-genetics/",
     },
   ];
 
@@ -165,14 +172,14 @@ export default function HomePage() {
             </p>
           </div>
 
-          <div className="flex flex-wrap justify-center gap-8">
+          <div className="flex flex-wrap justify-center gap-4">
             {keynoteSpeakers.map((speaker, idx) => (
               <a
                 key={idx}
                 href={speaker.homepage}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-white border border-gray-200 rounded overflow-hidden hover:shadow-lg transition-shadow w-full sm:w-80 block"
+                className="bg-white border border-gray-200 rounded overflow-hidden hover:shadow-lg transition-shadow w-full sm:w-64 lg:w-72 flex flex-col"
               >
                 <div className="h-64 overflow-hidden bg-gray-100">
                   <img
@@ -181,12 +188,12 @@ export default function HomePage() {
                     className="w-full h-full object-cover"
                   />
                 </div>
-                <div className="p-5">
+                <div className="p-5 flex flex-col flex-1">
                   <h3 className="text-lg font-bold text-gray-800 mb-2">
                     {speaker.name}
                   </h3>
-                  <p className="text-sm text-gray-600 mb-3">{speaker.title}</p>
-                  <p className="text-sm font-semibold text-[#005bbb]">
+                  <p className="text-sm text-gray-600 mb-3 flex-1">{speaker.title}</p>
+                  <p className="text-sm font-semibold text-[#005bbb] mt-auto">
                     {speaker.institution}
                   </p>
                 </div>

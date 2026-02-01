@@ -26,6 +26,7 @@ export default function OrganizationPage() {
               <li>Gary Bader, University of Toronto</li>
               <li>James Cimino, University of Alabama at Birmingham</li>
               <li>Mingyao Li, University of Pennsylvania</li>
+              <li>Ting Wang, Washington University in St. Louis</li>
             </ul>
           </div>
 
