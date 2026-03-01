@@ -145,18 +145,36 @@ export default function SubmissionPage() {
             </h2>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>
-                Abstracts should be ≤400 words using the conference-provided
-                template. Papers already published or accepted for publication
-                are also welcome.
+                Conference participants are invited to submit abstracts to ICIBM
+                2026 describing recent advances in bioinformatics and
+                computational biology, artificial intelligence and machine
+                learning, systems biology, biomedical informatics, and other
+                related fields.
               </p>
               <p>
-                Please submit your abstract to{" "}
+                Abstracts must be prepared using the official conference{" "}
+                <a
+                  href="/abstract_template.docx"
+                  className="text-[#005bbb] hover:underline font-semibold"
+                >
+                  Abstract Template
+                </a>
+                . The abstract body should not exceed 400 words. We welcome
+                submissions reporting original research, whether previously
+                published or unpublished. Selected abstracts will be invited for
+                oral presentation, and others will be presented in a poster
+                session.
+              </p>
+              <p>
+                Please submit your abstract directly to{" "}
                 <a
                   href="mailto:icibm.common@gmail.com"
                   className="text-[#005bbb] hover:underline font-semibold"
                 >
                   icibm.common@gmail.com
                 </a>
+                . In the email subject line, state:{" "}
+                <strong>ICIBM 2026: Abstract submission</strong>
               </p>
             </div>
           </div>
