@@ -212,7 +212,7 @@ export default function HomePage() {
                   <img
                     src={speaker.image}
                     alt={speaker.name}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover object-top"
                   />
                 </div>
                 <div className="p-5 flex flex-col flex-1">
@@ -251,7 +251,7 @@ export default function HomePage() {
                   <img
                     src={speaker.image}
                     alt={speaker.name}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover object-top"
                   />
                 </div>
                 <div className="p-5 flex flex-col flex-1">

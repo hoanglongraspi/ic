@@ -165,7 +165,17 @@ export default function SubmissionPage() {
                 oral presentation, and others will be presented in a poster
                 session.
               </p>
-              
+              <p className="bg-blue-50 border-l-4 border-[#005bbb] p-4 rounded">
+                Please submit your abstract directly to{" "}
+                <a
+                  href="mailto:icibm2026.abstract@gmail.com"
+                  className="text-[#005bbb] hover:underline font-semibold"
+                >
+                  icibm2026.abstract@gmail.com
+                </a>
+                . In the email subject line, state:{" "}
+                <strong>ICIBM 2026: Abstract submission</strong>.
+              </p>
             </div>
           </div>
         </div>
