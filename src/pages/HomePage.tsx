@@ -55,6 +55,33 @@ export default function HomePage() {
     },
   ];
 
+  const eminentScholarSpeakers = [
+    {
+      name: "Han Liang, Ph.D.",
+      title: "Barnhart Family Distinguished Professor in Targeted Therapies; Interim Chair, Department of Bioinformatics and Computational Biology",
+      institution: "The University of Texas MD Anderson Cancer Center",
+      image: "/Drliang.jpg",
+    },
+    {
+      name: "Chongzhi Zang, Ph.D.",
+      title: "Associate Professor of Genome Sciences; Director of Computational Genomics",
+      institution: "UVA Comprehensive Cancer Center, University of Virginia",
+      image: "/DrZang.png",
+    },
+    {
+      name: "Rong Xu, Ph.D.",
+      title: "Professor of Biomedical Informatics; Director, Center for AI in Drug Discovery",
+      institution: "Case Western Reserve University; Case Comprehensive Cancer Center",
+      image: "/Drrongxu.png",
+    },
+    {
+      name: "Yun Li, Ph.D.",
+      title: "Professor of Genetics; Professor of Biostatistics",
+      institution: "University of North Carolina at Chapel Hill",
+      image: "/Dryunli.png",
+    },
+  ];
+
   return (
     <>
       <section className="relative bg-gradient-to-r from-[#005bbb] to-[#003d7a] text-white overflow-hidden">
@@ -204,6 +231,45 @@ export default function HomePage() {
       </section>
 
       <section className="py-16 px-4 bg-gray-50">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold mb-4 text-gray-800">
+              Eminent Scholar Award Speakers
+            </h2>
+            <p className="text-lg text-gray-600">
+              Distinguished scholars recognized for their contributions to intelligent biology and medicine
+            </p>
+          </div>
+
+          <div className="flex flex-wrap justify-center gap-4">
+            {eminentScholarSpeakers.map((speaker, idx) => (
+              <div
+                key={idx}
+                className="bg-white border border-gray-200 rounded overflow-hidden hover:shadow-lg transition-shadow w-full sm:w-64 lg:w-72 flex flex-col"
+              >
+                <div className="h-64 overflow-hidden bg-gray-100">
+                  <img
+                    src={speaker.image}
+                    alt={speaker.name}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="p-5 flex flex-col flex-1">
+                  <h3 className="text-lg font-bold text-gray-800 mb-2">
+                    {speaker.name}
+                  </h3>
+                  <p className="text-sm text-gray-600 mb-3 flex-1">{speaker.title}</p>
+                  <p className="text-sm font-semibold text-[#005bbb] mt-auto">
+                    {speaker.institution}
+                  </p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="py-16 px-4 bg-white">
         <div className="max-w-5xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-4 text-gray-800">
             Call for Papers
