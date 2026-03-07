@@ -57,16 +57,16 @@ export default function HomePage() {
 
   const eminentScholarSpeakers = [
     {
-      name: "Han Liang, Ph.D.",
-      title: "Barnhart Family Distinguished Professor in Targeted Therapies; Interim Chair, Department of Bioinformatics and Computational Biology",
-      institution: "The University of Texas MD Anderson Cancer Center",
-      image: "/Drliang.jpg",
-    },
-    {
       name: "Chongzhi Zang, Ph.D.",
       title: "Associate Professor of Genome Sciences; Director of Computational Genomics",
       institution: "UVA Comprehensive Cancer Center, University of Virginia",
       image: "/DrZang.png",
+    },
+    {
+      name: "Han Liang, Ph.D.",
+      title: "Barnhart Family Distinguished Professor in Targeted Therapies; Interim Chair, Department of Bioinformatics and Computational Biology",
+      institution: "The University of Texas MD Anderson Cancer Center",
+      image: "/Drliang.jpg",
     },
     {
       name: "Rong Xu, Ph.D.",
