@@ -122,18 +122,67 @@ export default function SubmissionPage() {
         <div className="space-y-8">
           <div className="bg-white border-2 border-gray-200 rounded p-8">
             <h2 className="text-2xl font-bold text-gray-800 mb-6 pb-3 border-b-2 border-[#005bbb]">
-              Paper Submission
+              Paper Submission and Publication
             </h2>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>
                 Prospective authors are invited to submit original, unpublished
-                work to ICIBM 2026. Selected papers from registered authors will
-                be considered for publication in special issues of{" "}
+                work to ICIBM 2026. Selected papers from registered participants
+                will be recommended for publication in special issues of{" "}
                 <strong>Briefings in Bioinformatics</strong>,{" "}
                 <strong>Cancers</strong>,{" "}
                 <strong>Computational and Structural Biotechnology Journal</strong>,{" "}
                 <strong>Frontiers in Genetics</strong>, and{" "}
                 <strong>Genes</strong>.
+              </p>
+              <p>
+                Please submit your manuscript to{" "}
+                <a
+                  href="https://easychair.org/cfp/ICIBM2026"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[#005bbb] hover:underline font-semibold"
+                >
+                  EasyChair conference management system
+                </a>
+                .
+              </p>
+
+              <h3 className="text-xl font-bold text-gray-800 mt-8 mb-4">
+                Submission and Review Process
+              </h3>
+              <p>
+                Authors are encouraged to consider the journal special issues when
+                preparing their manuscripts. Since ICIBM 2026 collaborates with
+                multiple journals, you may tailor your manuscript according to
+                the aims and scope of your preferred journal.
+              </p>
+              <p>
+                <strong>Please note:</strong> There is <strong>no strict manuscript formatting requirement </strong>
+                at the time of submission to ICIBM 2026. However, if your paper
+                is selected for journal recommendation, you will be asked to format
+                it according to the target journal&apos;s submission guidelines
+                during the journal review stage.
+              </p>
+              <p>The review process includes two stages:</p>
+              <ul className="list-disc list-inside space-y-2 ml-2">
+                <li>
+                  <strong>Conference Review:</strong> All submitted manuscripts
+                  will undergo peer review by the ICIBM 2026 Program Committee.
+                  Selected papers will be invited for oral presentation at the
+                  conference.
+                </li>
+                <li>
+                  <strong>Journal Review:</strong> Accepted papers will be
+                  recommended for publication in the special issues of partner
+                  journals. Final decisions will be made following each
+                  journal&apos;s independent peer review process and formatting
+                  requirements.
+                </li>
+              </ul>
+              <p className="mt-4">
+                We look forward to receiving your submissions and thank you for
+                contributing to ICIBM 2026.
               </p>
             </div>
           </div>
