@@ -12,8 +12,8 @@ export default function OrganizationPage() {
               General Chairs
             </h2>
             <ul className="space-y-2 text-gray-700">
-              <li>Yijun Sun, SUNY Buffalo</li>
               <li>Qianqian Song, University of Florida</li>
+              <li>Yijun Sun, SUNY Buffalo</li>
               <li>Zhongming Zhao, UTHealth Houston</li>
             </ul>
           </div>
@@ -46,10 +46,11 @@ export default function OrganizationPage() {
               Steering Committee
             </h2>
             <ul className="space-y-2 text-gray-700">
-              <li>Marc Halterman, SUNY Buffalo</li>
-              <li>Mattia Prosperi, University of Florida</li>
-              <li>Jinjun Xiong, SUNY Buffalo</li>
               <li>Peter Elkin, SUNY Buffalo</li>
+              <li>Marc Halterman, SUNY Buffalo</li>
+              <li>Siwei Lyu, SUNY Buffalo</li>
+              <li>Mattia Prosperi, University of Florida</li>
+              <li>Jinjun Xiong, UTSA</li>
             </ul>
           </div>
 
@@ -58,8 +59,8 @@ export default function OrganizationPage() {
               Publication Committee
             </h2>
             <ul className="space-y-2 text-gray-700">
-              <li>Li Liu, Arizona State University</li>
               <li>Dawei Li, Texas Tech University</li>
+              <li>Li Liu, Arizona State University</li>
               <li>Jun Wan, Indiana University</li>
             </ul>
           </div>
@@ -69,24 +70,24 @@ export default function OrganizationPage() {
               Workshop Committee
             </h2>
             <ul className="space-y-2 text-gray-700">
-              <li>Leng Han, Indiana University</li>
-              <li>Bin Chen, Michigan State University</li>
-              <li>Hongying Sun, University of Rochester</li>
-              <li>Jianrong Wang, Michigan State University</li>
-              <li>Jingwen Yan, Indiana University</li>
-              <li>Juilee Thakar, University of Rochester</li>
-              <li>Lei Li, Shenzhen Bay Laboratory</li>
-              <li>Li Zhao, Rockefeller University</li>
-              <li>Qiyun Zhu, Arizona State University</li>
               <li>Riyue Bao, University of Pittsburgh</li>
-              <li>Sheng Li, University of Southern California</li>
-              <li>Shibiao Wan, University of Nebraska Medical Center</li>
-              <li>Wanding Zhou, Children’s Hospital of Philadelphia</li>
-              <li>Xueqiu Lin, Fred Hutchinson Cancer Center</li>
-              <li>Yijie Wang, Indiana University</li>
-              <li>Yu Ding, University of Pennsylvania</li>
-              <li>Yu Huang, Indiana University</li>
+              <li>Bin Chen, Michigan State University</li>
               <li>Yuehua Cui, Michigan State University</li>
+              <li>Yu Ding, University of Pennsylvania</li>
+              <li>Leng Han, Indiana University</li>
+              <li>Yu Huang, Indiana University</li>
+              <li>Lei Li, Shenzhen Bay Laboratory</li>
+              <li>Sheng Li, University of Southern California</li>
+              <li>Xueqiu Lin, Fred Hutchinson Cancer Center</li>
+              <li>Hongying Sun, University of Rochester</li>
+              <li>Juilee Thakar, University of Rochester</li>
+              <li>Shibiao Wan, University of Nebraska Medical Center</li>
+              <li>Jianrong Wang, Michigan State University</li>
+              <li>Yijie Wang, Indiana University</li>
+              <li>Jingwen Yan, Indiana University</li>
+              <li>Li Zhao, Rockefeller University</li>
+              <li>Wanding Zhou, Children's Hospital of Philadelphia</li>
+              <li>Qiyun Zhu, Arizona State University</li>
             </ul>
           </div>
 
