@@ -12,9 +12,9 @@ export default function OrganizationPage() {
               General Chairs
             </h2>
             <ul className="space-y-2 text-gray-700">
-              <li>Qianqian Song, University of Florida</li>
               <li>Yijun Sun, SUNY Buffalo</li>
               <li>Zhongming Zhao, UTHealth Houston</li>
+              <li>Qianqian Song, University of Florida</li>
             </ul>
           </div>
 
