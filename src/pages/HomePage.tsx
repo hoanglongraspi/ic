@@ -57,13 +57,6 @@ export default function HomePage() {
 
   const eminentScholarSpeakers = [
     {
-      name: "Chongzhi Zang, Ph.D.",
-      title: "Associate Professor of Genome Sciences; Director of Computational Genomics",
-      institution: "UVA Comprehensive Cancer Center, University of Virginia",
-      image: "/DrZang.png",
-      homepage: "https://engineering.virginia.edu/faculty/chongzhi-zang",
-    },
-    {
       name: "Han Liang, Ph.D.",
       title: "Barnhart Family Distinguished Professor in Targeted Therapies; Interim Chair, Department of Bioinformatics and Computational Biology",
       institution: "The University of Texas MD Anderson Cancer Center",
@@ -71,18 +64,25 @@ export default function HomePage() {
       homepage: "https://faculty.mdanderson.org/profiles/liang_han.html",
     },
     {
-      name: "Rong Xu, Ph.D.",
+      name: "Yun Li, Ph.D.",
+      title: "Professor of Genetics; Professor of Biostatistics",
+      institution: "University of North Carolina at Chapel Hill",
+      image: "/Dryunli.png",
+      homepage: "https://sph.unc.edu/adv_profile/yun-li-phd/",
+    },
+    {
+      name: "Rong Xue, Ph.D.",
       title: "Professor of Biomedical Informatics; Director, Center for AI in Drug Discovery",
       institution: "Case Western Reserve University; Case Comprehensive Cancer Center",
       image: "/Drrongxu.png",
       homepage: "https://case.edu/cancer/members/member-directory/rong-xu",
     },
     {
-      name: "Yun Li, Ph.D.",
-      title: "Professor of Genetics; Professor of Biostatistics",
-      institution: "University of North Carolina at Chapel Hill",
-      image: "/Dryunli.png",
-      homepage: "https://sph.unc.edu/adv_profile/yun-li-phd/",
+      name: "Chongzhi Zang, Ph.D.",
+      title: "Associate Professor of Genome Sciences; Director of Computational Genomics",
+      institution: "UVA Comprehensive Cancer Center, University of Virginia",
+      image: "/DrZang.png",
+      homepage: "https://engineering.virginia.edu/faculty/chongzhi-zang",
     },
   ];
 
