@@ -102,6 +102,24 @@ export default function OrganizationPage() {
             </ul>
           </div>
 
+          <div className="bg-white border-2 border-gray-200 rounded p-8">
+            <h2 className="text-2xl font-bold text-gray-800 mb-4 pb-3 border-b-2 border-[#005bbb]">
+              Award Committee
+            </h2>
+            <ul className="space-y-2 text-gray-700">
+              <li>Huihuang Yan, Mayo Clinic</li>
+            </ul>
+          </div>
+
+          <div className="bg-white border-2 border-gray-200 rounded p-8">
+            <h2 className="text-2xl font-bold text-gray-800 mb-4 pb-3 border-b-2 border-[#005bbb]">
+              Future Scientist in AI Committee
+            </h2>
+            <ul className="space-y-2 text-gray-700">
+              <li>Chi Zhang, Oregon Health &amp; Science University</li>
+            </ul>
+          </div>
+
           {/* <div className="bg-white border-2 border-gray-200 rounded p-8">
             <h2 className="text-2xl font-bold text-gray-800 mb-4 pb-3 border-b-2 border-[#005bbb]">
               Session Chairs
