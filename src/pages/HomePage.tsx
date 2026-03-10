@@ -71,7 +71,7 @@ export default function HomePage() {
       homepage: "https://sph.unc.edu/adv_profile/yun-li-phd/",
     },
     {
-      name: "Rong Xue, Ph.D.",
+      name: "Rong Xu, Ph.D.",
       title: "Professor of Biomedical Informatics; Director, Center for AI in Drug Discovery",
       institution: "Case Western Reserve University; Case Comprehensive Cancer Center",
       image: "/Drrongxu.png",

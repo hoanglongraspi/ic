@@ -32,6 +32,18 @@ export default function OrganizationPage() {
 
           <div className="bg-white border-2 border-gray-200 rounded p-8">
             <h2 className="text-2xl font-bold text-gray-800 mb-4 pb-3 border-b-2 border-[#005bbb]">
+              Eminent Scholar Award Speakers
+            </h2>
+            <ul className="space-y-2 text-gray-700">
+              <li>Han Liang, The University of Texas MD Anderson Cancer Center</li>
+              <li>Yun Li, University of North Carolina at Chapel Hill</li>
+              <li>Rong Xu, Case Western Reserve University; Case Comprehensive Cancer Center</li>
+              <li>Chongzhi Zang, UVA Comprehensive Cancer Center, University of Virginia</li>
+            </ul>
+          </div>
+
+          <div className="bg-white border-2 border-gray-200 rounded p-8">
+            <h2 className="text-2xl font-bold text-gray-800 mb-4 pb-3 border-b-2 border-[#005bbb]">
               Program Committee
             </h2>
             <ul className="space-y-2 text-gray-700">
@@ -48,6 +60,7 @@ export default function OrganizationPage() {
             <ul className="space-y-2 text-gray-700">
               <li>Peter Elkin, SUNY Buffalo</li>
               <li>Marc Halterman, SUNY Buffalo</li>
+              <li>Song Liu, Roswell Park Cancer Center</li>
               <li>Siwei Lyu, SUNY Buffalo</li>
               <li>Mattia Prosperi, University of Florida</li>
               <li>Jinjun Xiong, UTSA</li>
