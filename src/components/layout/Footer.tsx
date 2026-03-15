@@ -51,8 +51,7 @@ export default function Footer() {
 
         <div className="border-t border-gray-700 pt-8 text-center text-gray-400 text-sm">
           <p>
-            © 2026 ICIBM - International Conference on Intelligent Biology and
-            Medicine. All rights reserved.
+            © 2012–2026 International Conference on Intelligent Biology and Medicine (ICIBM). Organized by IAIBM. All rights reserved.
           </p>
         </div>
       </div>

@@ -8,6 +8,7 @@ import Calender from "./pages/Calender";
 import RegistrationPage from "./pages/RegistrationPage";
 import ProgramPage from "./pages/ProgramPage";
 import OrganizationPage from "./pages/OrganizationPage";
+import ProgramCommitteePage from "./pages/ProgramCommitteePage";
 import TravelPage from "./pages/TravelPage";
 import SponsorsPage from "./pages/SponsorsPage";
 import PastConferencesPage from "./pages/PastConferencesPage";
@@ -26,6 +27,7 @@ export default function App() {
           <Route path="/registration" element={<RegistrationPage />} />
           <Route path="/program" element={<ProgramPage />} />
           <Route path="/organization" element={<OrganizationPage />} />
+          <Route path="/program-committee" element={<ProgramCommitteePage />} />
           <Route path="/travel" element={<TravelPage />} />
           <Route path="/sponsors" element={<SponsorsPage />} />
           <Route path="/past-conferences" element={<PastConferencesPage />} />
