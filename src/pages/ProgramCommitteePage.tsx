@@ -52,6 +52,7 @@ export default function ProgramCommitteePage() {
     { first: "Yingying", last: "Wei", affiliation: "The Chinese University of Hong Kong" },
     { first: "Ka-Chun", last: "Wong", affiliation: "City University of Hong Kong" },
     { first: "Huanmei", last: "Wu", affiliation: "Temple University" },
+    { first: "Wenyao", last: "Xu", affiliation: "The State University of New York at Buffalo" },
     { first: "Jinchuan", last: "Xing", affiliation: "Rutgers University" },
     { first: "Jianhua", last: "Xuan", affiliation: "Virginia Tech" },
     { first: "Yu", last: "Xue", affiliation: "Huazhong University of Science and Technology" },
