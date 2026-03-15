@@ -1,6 +1,7 @@
 export default function ProgramCommitteePage() {
   const members = [
     { first: "Jonathan", last: "Bard", affiliation: "The State University of New York at Buffalo" },
+    { first: "Michael", last: "Buck", affiliation: "The State University of New York at Buffalo" },
     { first: "James", last: "Cai", affiliation: "Texas A&M University" },
     { first: "Sapuni", last: "Chandrasena", affiliation: "The Ohio State University Wexner Medical Center" },
     { first: "Xiao", last: "Chang", affiliation: "CHOP" },
