@@ -73,9 +73,7 @@ export default function ProgramCommitteePage() {
         <h1 className="text-4xl font-bold mb-8 text-gray-800">Program Committee</h1>
 
         <div className="bg-white border-2 border-gray-200 rounded p-8">
-          <h2 className="text-2xl font-bold text-gray-800 mb-6 pb-3 border-b-2 border-[#005bbb]">
-            Program Committee Members
-          </h2>
+          
           <div className="overflow-x-auto">
             <table className="w-full text-gray-700">
               <thead>
