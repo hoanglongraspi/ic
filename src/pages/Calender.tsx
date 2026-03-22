@@ -1,7 +1,6 @@
 export default function Calendar() {
   const dates = [
-
-    
+    { event: "Paper Submission Deadline", date: "April 14, 2026" },
     { event: "Notification to Authors", date: "June 1, 2026" },
     { event: "Abstract Submission Deadline", date: "June 15, 2026" },
     { event: "Early Registration Opens", date: "June 10, 2026" },
