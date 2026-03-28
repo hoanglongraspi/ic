@@ -83,6 +83,13 @@ export default function OrganizationPage() {
               Workshop Committee
             </h2>
             <ul className="space-y-2 text-gray-700">
+              <li>Yuanyuan Fu, University of Hawaii at Manoa</li>
+              <li>Leng Han, Indiana University</li>
+              <li>Hongying Sun, University of Rochester</li>
+              <li>Xun Wu, Columbia University Irving Medical Center</li>
+              <li>Qiyun Zhu, Arizona State University</li>
+            </ul>
+            {/* Previous Workshop Committee:
               <li>Riyue Bao, University of Pittsburgh</li>
               <li>Bin Chen, Michigan State University</li>
               <li>Yuehua Cui, Michigan State University</li>
@@ -101,7 +108,7 @@ export default function OrganizationPage() {
               <li>Li Zhao, Rockefeller University</li>
               <li>Wanding Zhou, Children's Hospital of Philadelphia</li>
               <li>Qiyun Zhu, Arizona State University</li>
-            </ul>
+            */}
           </div>
 
           <div className="bg-white border-2 border-gray-200 rounded p-8">
