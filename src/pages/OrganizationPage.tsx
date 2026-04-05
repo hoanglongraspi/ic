@@ -138,6 +138,7 @@ export default function OrganizationPage() {
             </h2>
             <ul className="space-y-2 text-gray-700">
               <li>Chi Zhang, Oregon Health &amp; Science University</li>
+              <li>Jingwen Yan, Indiana University</li>
             </ul>
           </div>
 

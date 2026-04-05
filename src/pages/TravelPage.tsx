@@ -50,6 +50,26 @@ export default function TravelPage() {
 
           <div className="bg-white border-2 border-gray-200 rounded p-8">
             <h2 className="text-2xl font-bold text-gray-800 mb-4 pb-3 border-b-2 border-[#005bbb]">
+              Travel Awards
+            </h2>
+            <p className="text-gray-700 mb-4 leading-relaxed">
+              A limited number of travel awards are available for ICIBM 2026. To
+              apply, download the official application form, complete it, and
+              follow the instructions on the form.
+            </p>
+            <p>
+              <a
+                href="/ICIBM-2026-Travel-Award-Application-Form.docx"
+                className="text-[#005bbb] hover:underline font-semibold"
+                download
+              >
+                ICIBM 2026 Travel Award Application Form (Word)
+              </a>
+            </p>
+          </div>
+
+          <div className="bg-white border-2 border-gray-200 rounded p-8">
+            <h2 className="text-2xl font-bold text-gray-800 mb-4 pb-3 border-b-2 border-[#005bbb]">
               Accommodation
             </h2>
             <p className="text-gray-700 mb-4">
