@@ -48,7 +48,7 @@ export default function TravelPage() {
             </div>
           </div>
 
-          <div className="bg-white border-2 border-gray-200 rounded p-8">
+          {/* <div className="bg-white border-2 border-gray-200 rounded p-8">
             <h2 className="text-2xl font-bold text-gray-800 mb-4 pb-3 border-b-2 border-[#005bbb]">
               Travel Awards
             </h2>
@@ -66,7 +66,7 @@ export default function TravelPage() {
                 ICIBM 2026 Travel Award Application Form (Word)
               </a>
             </p>
-          </div>
+          </div> */}
 
           <div className="bg-white border-2 border-gray-200 rounded p-8">
             <h2 className="text-2xl font-bold text-gray-800 mb-4 pb-3 border-b-2 border-[#005bbb]">

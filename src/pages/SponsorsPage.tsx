@@ -87,12 +87,12 @@ export default function SponsorsPage() {
               >
                 Download the ICIBM 2026 Travel Award application form
               </a>
-              {" "}
+              {/* {" "}
               (also linked from the{" "}
               <a href="/travel" className="text-[#005bbb] hover:underline font-semibold">
                 Travel
               </a>{" "}
-              page).
+              page). */}
             </p>
           </div>
 
