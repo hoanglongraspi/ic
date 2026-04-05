@@ -79,7 +79,7 @@ export default function SponsorsPage() {
               </a>{" "}
               is pleased to sponsor <span className="font-semibold">4 travel awards</span> to ICIBM 2026. Special announcements will be made during the notification and award ceremony.
             </p>
-            <p className="text-gray-700 mt-4">
+            {/* <p className="text-gray-700 mt-4">
               <a
                 href="/ICIBM-2026-Travel-Award-Application-Form.docx"
                 className="font-semibold text-[#005bbb] hover:underline"
@@ -87,13 +87,13 @@ export default function SponsorsPage() {
               >
                 Download the ICIBM 2026 Travel Award application form
               </a>
-              {/* {" "}
+              {" "}
               (also linked from the{" "}
               <a href="/travel" className="text-[#005bbb] hover:underline font-semibold">
                 Travel
               </a>{" "}
-              page). */}
-            </p>
+              page).
+            </p> */}
           </div>
 
           {/* Interested in sponsoring */}
