@@ -129,6 +129,7 @@ export default function OrganizationPage() {
             </h2>
             <ul className="space-y-2 text-gray-700">
               <li>Huihuang Yan, Mayo Clinic</li>
+              <li>Kai Wang, University of Pennsylvania</li>
             </ul>
           </div>
 
