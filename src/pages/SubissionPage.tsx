@@ -227,6 +227,85 @@ export default function SubmissionPage() {
               </p>
             </div>
           </div>
+
+          {/* Future Scientist in AI Session */}
+          <div className="bg-white border-2 border-gray-200 rounded p-8">
+            <h2 className="text-2xl font-bold text-gray-800 mb-6 pb-3 border-b-2 border-[#005bbb]">
+              Future Scientist in AI Session Abstract Submission
+            </h2>
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p>
+                The Future Scientist in AI Session, a recurring highlight of
+                ICIBM, aims to encourage and showcase outstanding research by
+                high school (10th grade or above preferred) and undergraduate
+                students who have conducted significant research projects in
+                fields aligned with ICIBM. This session provides a unique
+                platform for young scientists to present their work to an
+                international audience of experts and peers.
+              </p>
+
+              <h3 className="text-xl font-bold text-gray-800 mt-8 mb-4">
+                Submission Details
+              </h3>
+              <ul className="list-disc list-inside space-y-2 ml-2">
+                <li>
+                  Applicants must be current high school (preferably 10th grade
+                  or above) or undergraduate students.
+                </li>
+                <li>
+                  Each applicant should have led a research project or gained
+                  substantial research experience relevant to ICIBM&apos;s
+                  thematic areas.
+                </li>
+                <li>
+                  We will select approximately 15–20 oral presentations and
+                  15–20 posters.
+                </li>
+                <li>
+                  The oral presentations will be 10 minutes each and should
+                  showcase a complete research project primarily conducted by the
+                  student speaker.
+                </li>
+              </ul>
+
+              <p className="mt-4">
+                We are proud to see that many of our previous presenters have
+                gone on to pursue advanced research opportunities and academic
+                careers in related fields.
+              </p>
+
+              <h3 className="text-xl font-bold text-gray-800 mt-8 mb-4">
+                Abstract Submission
+              </h3>
+              <p>
+                High School and College level participants are invited to submit
+                abstracts formatted using the abstract template available for
+                download{" "}
+                <a
+                  href="/abstract_template.docx"
+                  className="text-[#005bbb] hover:underline font-semibold"
+                >
+                  here
+                </a>
+                . Abstracts should be no more than 400 words. A few questions
+                about the background of the research and a reference letter are
+                required for Future Scientist in AI Session applications.
+              </p>
+              <p className="bg-blue-50 border-l-4 border-[#005bbb] p-4 rounded">
+                Please submit your abstract to{" "}
+                <a
+                  href="mailto:icibm.futurescientist@gmail.com"
+                  className="text-[#005bbb] hover:underline font-semibold"
+                >
+                  icibm.futurescientist@gmail.com
+                </a>{" "}
+                by the deadline <strong>June 15, 2026</strong>. Please make sure
+                to include{" "}
+                <strong>&quot;Future Scientist in AI Session&quot;</strong> in
+                the title of the submission.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
