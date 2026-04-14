@@ -1,6 +1,17 @@
+type ImportantDate = {
+  event: string;
+  date: string;
+  /** When set, shown struck through before the current `date`. */
+  previousDate?: string;
+};
+
 export default function Calendar() {
-  const dates = [
-    { event: "Paper Submission Deadline", date: "April 14, 2026" },
+  const dates: ImportantDate[] = [
+    {
+      event: "Paper Submission Deadline",
+      date: "April 28, 2026",
+      previousDate: "April 14, 2026",
+    },
     { event: "Notification to Authors", date: "June 1, 2026" },
     { event: "Abstract Submission Deadline", date: "June 15, 2026" },
     { event: "Early Registration Opens", date: "June 10, 2026" },
@@ -22,7 +33,16 @@ export default function Calendar() {
                 <tr key={idx} className="hover:bg-gray-50">
                   <td className="px-6 py-4 text-gray-700">{item.event}</td>
                   <td className="px-6 py-4 text-right font-semibold text-[#005bbb]">
-                    {item.date}
+                    {item.previousDate ? (
+                      <>
+                        <span className="line-through text-red-600 font-normal mr-2">
+                          {item.previousDate}
+                        </span>
+                        <span>{item.date}</span>
+                      </>
+                    ) : (
+                      item.date
+                    )}
                   </td>
                 </tr>
               ))}
