@@ -148,16 +148,17 @@ export default function SubmissionPage() {
                 .
               </p>
 
-              <p>
-                To accommodate high submission volume, submissions may also be
-                accepted via email at{" "}
+              <p className="bg-blue-50 border-l-4 border-[#005bbb] p-4 rounded">
+                To accommodate high submission volume, additional submission may
+                be sent directly to{" "}
                 <a
                   href="mailto:icibm.common@gmail.com"
                   className="text-[#005bbb] hover:underline font-semibold"
                 >
                   icibm.common@gmail.com
                 </a>
-                .
+                . Please have email subject line:{" "}
+                <strong>ICIBM 2026 paper submission</strong>.
               </p>
 
               <h3 className="text-xl font-bold text-gray-800 mt-8 mb-4">
