@@ -148,6 +148,18 @@ export default function SubmissionPage() {
                 .
               </p>
 
+              <p>
+                To accommodate high submission volume, submissions may also be
+                accepted via email at{" "}
+                <a
+                  href="mailto:icibm.common@gmail.com"
+                  className="text-[#005bbb] hover:underline font-semibold"
+                >
+                  icibm.common@gmail.com
+                </a>
+                .
+              </p>
+
               <h3 className="text-xl font-bold text-gray-800 mt-8 mb-4">
                 Submission and Review Process
               </h3>
