@@ -49,6 +49,7 @@ export default function OrganizationPage() {
             <ul className="space-y-2 text-gray-700">
               <li>Michael Buck, SUNY Buffalo</li>
               <li>Hongbo Liu, University of Rochester</li>
+              <li>Lu Li, SUNY Buffalo</li>
               <li>Wenyao Xu, SUNY Buffalo</li>
             </ul>
           </div>
