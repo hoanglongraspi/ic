@@ -295,7 +295,7 @@ export default function SubmissionPage() {
                 abstracts formatted using the abstract template available for
                 download{" "}
                 <a
-                  href="/abstract_template.docx"
+                  href="/abstract_template-Future_Scientist_Session.docx"
                   className="text-[#005bbb] hover:underline font-semibold"
                 >
                   here
