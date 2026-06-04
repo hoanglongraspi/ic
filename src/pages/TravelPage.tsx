@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function TravelPage() {
   return (
     <div className="py-16 px-4">
@@ -72,10 +74,33 @@ export default function TravelPage() {
             <h2 className="text-2xl font-bold text-gray-800 mb-4 pb-3 border-b-2 border-[#005bbb]">
               Accommodation
             </h2>
-            <p className="text-gray-700 mb-4">
-              Information about recommended hotels and special conference rates
-              will be available soon. Please check back for updates.
-            </p>
+            <div className="grid md:grid-cols-[1fr_2fr] gap-6 items-start">
+              <Link to="/hotel" className="block">
+                <img
+                  src="/hilton-buffalo.jpg"
+                  alt="Hilton Garden Inn Buffalo Downtown"
+                  className="w-full h-auto rounded border border-gray-200 hover:opacity-90 transition-opacity"
+                />
+              </Link>
+              <div className="text-gray-700 space-y-3">
+                <h3 className="font-bold text-lg text-gray-800">
+                  Hilton Garden Inn Buffalo Downtown
+                </h3>
+                <p className="leading-relaxed">
+                  We recommend the Hilton Garden Inn Buffalo Downtown, located
+                  approximately a 20-minute walk from the conference venue. A
+                  special discounted rate of{" "}
+                  <span className="font-semibold">$149 + tax</span> has been
+                  arranged for ICIBM 2026 attendees.
+                </p>
+                <Link
+                  to="/hotel"
+                  className="inline-block bg-[#005bbb] text-white font-semibold px-5 py-2 rounded hover:bg-[#004a99] transition-colors"
+                >
+                  View Hotel Details →
+                </Link>
+              </div>
+            </div>
           </div>
 
           <div className="bg-white border-2 border-gray-200 rounded p-8">

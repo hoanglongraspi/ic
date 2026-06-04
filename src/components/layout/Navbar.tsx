@@ -11,8 +11,7 @@ type NavItem = {
 
 export default function Navbar() {
   const [open, setOpen] = React.useState(false);
-  const [dropdownOpen, setDropdownOpen] = React.useState(false);
-  const dropdownRef = React.useRef<HTMLDivElement>(null);
+  const [openDropdown, setOpenDropdown] = React.useState<string | null>(null);
   const location = useLocation();
 
   const navItems: NavItem[] = [
@@ -29,15 +28,23 @@ export default function Navbar() {
         { path: "/program-committee", label: "Program Committee" },
       ],
     },
-    { path: "/travel", label: "Travel" },
+    {
+      path: "/travel",
+      label: "Travel",
+      children: [
+        { path: "/travel", label: "Travel Info" },
+        { path: "/hotel", label: "Hotel" },
+      ],
+    },
     { path: "/sponsors", label: "Sponsors" },
     { path: "/past-conferences", label: "Past ICIBM" },
     { path: "/contact", label: "Contact" },
   ];
 
-  const isOrganizationActive =
-    location.pathname === "/organization" ||
-    location.pathname === "/program-committee";
+  const isItemActive = (item: NavItem) =>
+    item.children
+      ? item.children.some((c) => c.path === location.pathname)
+      : location.pathname === item.path;
 
   return (
     <nav className="bg-white border-b-2 border-gray-200 sticky top-0 z-50 shadow-sm">
@@ -57,14 +64,13 @@ export default function Navbar() {
               item.children ? (
                 <div
                   key={item.path}
-                  ref={dropdownRef}
                   className="relative"
-                  onMouseEnter={() => setDropdownOpen(true)}
-                  onMouseLeave={() => setDropdownOpen(false)}
+                  onMouseEnter={() => setOpenDropdown(item.path)}
+                  onMouseLeave={() => setOpenDropdown(null)}
                 >
                   <button
                     className={`flex items-center gap-1 px-3 py-2 text-sm font-medium whitespace-nowrap transition-colors ${
-                      isOrganizationActive
+                      isItemActive(item)
                         ? "text-[#005bbb] border-b-2 border-[#005bbb]"
                         : "text-gray-700 hover:text-[#005bbb]"
                     }`}
@@ -72,17 +78,17 @@ export default function Navbar() {
                     {item.label}
                     <ChevronDown
                       size={14}
-                      className={`transition-transform duration-200 ${dropdownOpen ? "rotate-180" : ""}`}
+                      className={`transition-transform duration-200 ${openDropdown === item.path ? "rotate-180" : ""}`}
                     />
                   </button>
 
-                  {dropdownOpen && (
+                  {openDropdown === item.path && (
                     <div className="absolute top-full left-0 bg-white border border-gray-200 rounded shadow-lg min-w-[200px] z-50">
                       {item.children.map((child) => (
                         <Link
                           key={child.path}
                           to={child.path}
-                          onClick={() => setDropdownOpen(false)}
+                          onClick={() => setOpenDropdown(null)}
                           className={`block px-4 py-3 text-sm whitespace-nowrap transition-colors hover:bg-gray-50 hover:text-[#005bbb] ${
                             location.pathname === child.path
                               ? "text-[#005bbb] font-semibold bg-blue-50"

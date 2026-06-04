@@ -10,6 +10,7 @@ import ProgramPage from "./pages/ProgramPage";
 import OrganizationPage from "./pages/OrganizationPage";
 import ProgramCommitteePage from "./pages/ProgramCommitteePage";
 import TravelPage from "./pages/TravelPage";
+import HotelPage from "./pages/HotelPage";
 import SponsorsPage from "./pages/SponsorsPage";
 import PastConferencesPage from "./pages/PastConferencesPage";
 import ContactPage from "./pages/ContactPage";
@@ -29,6 +30,7 @@ export default function App() {
           <Route path="/organization" element={<OrganizationPage />} />
           <Route path="/program-committee" element={<ProgramCommitteePage />} />
           <Route path="/travel" element={<TravelPage />} />
+          <Route path="/hotel" element={<HotelPage />} />
           <Route path="/sponsors" element={<SponsorsPage />} />
           <Route path="/past-conferences" element={<PastConferencesPage />} />
           <Route path="/contact" element={<ContactPage />} />
