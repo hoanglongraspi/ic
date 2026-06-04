@@ -28,14 +28,7 @@ export default function Navbar() {
         { path: "/program-committee", label: "Program Committee" },
       ],
     },
-    {
-      path: "/travel",
-      label: "Travel",
-      children: [
-        { path: "/travel", label: "Travel Info" },
-        { path: "/hotel", label: "Hotel" },
-      ],
-    },
+    { path: "/travel", label: "Travel" },
     { path: "/sponsors", label: "Sponsors" },
     { path: "/past-conferences", label: "Past ICIBM" },
     { path: "/contact", label: "Contact" },
