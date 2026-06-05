@@ -40,37 +40,6 @@ export default function TravelPage() {
             </div>
           </div>
 
-          <div className="bg-white border-2 border-gray-200 rounded p-8">
-            <h2 className="text-2xl font-bold text-gray-800 mb-4 pb-3 border-b-2 border-[#005bbb]">
-              Getting to Buffalo
-            </h2>
-            <div className="space-y-4 text-gray-700">
-              <div>
-                <h3 className="font-bold mb-2">By Air</h3>
-                <p>
-                  Buffalo Niagara International Airport (BUF) is located
-                  approximately 15 miles from the University at Buffalo downtown
-                  campus. The airport offers numerous daily flights from major
-                  cities across North America.
-                </p>
-              </div>
-              <div>
-                <h3 className="font-bold mb-2">By Car</h3>
-                <p>
-                  Buffalo is easily accessible via major highways including I-90
-                  (New York State Thruway) and I-190.
-                </p>
-              </div>
-              <div>
-                <h3 className="font-bold mb-2">By Train</h3>
-                <p>
-                  Amtrak provides service to Buffalo-Depew Station and
-                  Buffalo-Exchange Street Station.
-                </p>
-              </div>
-            </div>
-          </div>
-
           {/* <div className="bg-white border-2 border-gray-200 rounded p-8">
             <h2 className="text-2xl font-bold text-gray-800 mb-4 pb-3 border-b-2 border-[#005bbb]">
               Travel Awards
@@ -135,7 +104,7 @@ export default function TravelPage() {
               <h4 className="font-bold text-gray-800 mb-2">
                 Special Conference Room Rate
               </h4>
-              <p className="text-gray-700 mb-3">
+              <p className="text-red-600 mb-3">
                 <span className="font-semibold">$149 + tax and fees</span> — 2
                 Queen or King
               </p>
@@ -185,6 +154,37 @@ export default function TravelPage() {
             >
               Open in Google Maps →
             </a>
+          </div>
+
+          <div className="bg-white border-2 border-gray-200 rounded p-8">
+            <h2 className="text-2xl font-bold text-gray-800 mb-4 pb-3 border-b-2 border-[#005bbb]">
+              Getting to Buffalo
+            </h2>
+            <div className="space-y-4 text-gray-700">
+              <div>
+                <h3 className="font-bold mb-2">By Air</h3>
+                <p>
+                  Buffalo Niagara International Airport (BUF) is located
+                  approximately 15 miles from the University at Buffalo downtown
+                  campus. The airport offers numerous daily flights from major
+                  cities across North America.
+                </p>
+              </div>
+              <div>
+                <h3 className="font-bold mb-2">By Car</h3>
+                <p>
+                  Buffalo is easily accessible via major highways including I-90
+                  (New York State Thruway) and I-190.
+                </p>
+              </div>
+              <div>
+                <h3 className="font-bold mb-2">By Train</h3>
+                <p>
+                  Amtrak provides service to Buffalo-Depew Station and
+                  Buffalo-Exchange Street Station.
+                </p>
+              </div>
+            </div>
           </div>
 
           <div className="bg-white border-2 border-gray-200 rounded p-8">
