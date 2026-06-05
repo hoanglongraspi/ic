@@ -98,7 +98,7 @@ export default function RegistrationPage() {
             <p className="text-gray-700 mt-6">
               You may find Registration Guidelines{" "}
               <a
-                href="https://icibm2025.iaibm.org/Registration_files/Registration_guideline_ICIBM%202025.pdf"
+                href="/Registration_instruction.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[#005bbb] hover:underline font-semibold"
