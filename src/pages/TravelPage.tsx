@@ -122,7 +122,7 @@ export default function TravelPage() {
               </p>
             </div>
 
-            <div className="border-l-4 border-red-600 bg-red-50 p-5 rounded mb-6">
+            {/* <div className="border-l-4 border-red-600 bg-red-50 p-5 rounded mb-6">
               <h4 className="font-bold text-red-600 mb-2">Important Notice:</h4>
               <p className="text-red-600 leading-relaxed">
                 We are aware that the special ICIBM 2026 conference rate may
@@ -132,7 +132,7 @@ export default function TravelPage() {
                 the conference rate. We apologize for the inconvenience and
                 appreciate your patience.
               </p>
-            </div>
+            </div> */}
 
             <a
               href={bookingUrl}
