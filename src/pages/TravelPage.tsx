@@ -40,25 +40,93 @@ export default function TravelPage() {
             </div>
           </div>
 
-          {/* <div className="bg-white border-2 border-gray-200 rounded p-8">
+          <div className="bg-white border-2 border-gray-200 rounded p-8">
             <h2 className="text-2xl font-bold text-gray-800 mb-4 pb-3 border-b-2 border-[#005bbb]">
-              Travel Awards
+              Travel Awards: Call for Applications
             </h2>
             <p className="text-gray-700 mb-4 leading-relaxed">
-              A limited number of travel awards are available for ICIBM 2026. To
-              apply, download the official application form, complete it, and
-              follow the instructions on the form.
+              The goal of the ICIBM 2026 Travel Award is to encourage the
+              participation of young scientists in training, including graduate,
+              undergraduate, and high school students as well as postdoctoral
+              fellows. Specific consideration will be given to qualified
+              applicants from underrepresented populations, minority institutes,
+              female trainees, or those that need special financial support to
+              attend ICIBM 2026.
             </p>
-            <p>
-              <a
-                href="/ICIBM-2026-Travel-Award-Application-Form.docx"
-                className="text-[#005bbb] hover:underline font-semibold"
-                download
-              >
-                ICIBM 2026 Travel Award Application Form (Word)
-              </a>
+            <p className="text-gray-700 mb-4 leading-relaxed">
+              Travel awards of <span className="font-semibold">$600 per trainee</span> will
+              be available for students and postdocs attending ICIBM 2026,
+              covering registration and some travel costs. The awards are made
+              possible through a pending National Science Foundation (NSF) grant,
+              and we anticipate being able to offer at least 20 awards.
+              Eligibility for the awards is limited to trainees from the{" "}
+              <span className="font-semibold">United States and Canada</span>.
             </p>
-          </div> */}
+
+            <h3 className="text-lg font-bold text-gray-800 mb-2 mt-6">
+              Eligibility Requirements
+            </h3>
+            <p className="text-gray-700 mb-2">To be considered for an award the candidate must:</p>
+            <ol className="list-decimal list-inside space-y-2 text-gray-700 mb-6 ml-2">
+              <li>
+                Submit a paper/abstract to the conference by the submission
+                deadline (the first author of the ICIBM papers can submit their
+                abstract of the papers again)
+              </li>
+              <li>Be the first author on the paper/abstract</li>
+              <li>Must be an active trainee in an academic institute</li>
+              <li>
+                Complete and submit the award application form by the deadline{" "}
+                <span className="font-semibold text-red-600">June 20, 2026</span>
+              </li>
+            </ol>
+
+            <p className="text-gray-700 mb-6 leading-relaxed">
+              All applications will be reviewed and evaluated based on the
+              submitted paper/abstract using the following criteria: (1)
+              relevance to the topics of the conference, (2) significance of the
+              work, and (3) soundness of the results. The selected awardees will
+              be notified via email prior to the meeting and publicly announced
+              during the closing ceremony.
+            </p>
+
+            <h3 className="text-lg font-bold text-gray-800 mb-2">
+              Benefits for Travel Awardees
+            </h3>
+            <p className="text-gray-700 mb-2">
+              ICIBM 2026 will feature a diverse program including educational and
+              scientific sessions, a poster session, and opportunities for social
+              networking. As part of our efforts to promote learning and career
+              development among travel awardees, we are excited to offer the
+              following interactive and educational activities:
+            </p>
+            <ol className="list-decimal list-inside space-y-1 text-gray-700 mb-6 ml-2">
+              <li>Tutorials and Workshops</li>
+              <li>Poster session</li>
+              <li>
+                Opportunities for interacting with the keynote speakers and
+                established investigators
+              </li>
+              <li>
+                Networking dinner with keynote speakers and leaders in the field
+                of informatics
+              </li>
+            </ol>
+
+            <p className="text-gray-700 mb-4 leading-relaxed">
+              The award application form can be downloaded below. Please send
+              the completed form to Award Committee chairs. For questions
+              regarding the Travel Awards, please contact the Award Committee
+              chairs.
+            </p>
+            <a
+              href="/ICIBM-2026-Travel-Award-Application-Form.docx"
+              className="text-[#005bbb] hover:underline font-semibold"
+              download
+            >
+              Download ICIBM 2026 Travel Award Application Form (Word)
+            </a>
+          </div>
 
           <div className="bg-white border-2 border-gray-200 rounded p-8">
             <h2 className="text-2xl font-bold text-gray-800 mb-4 pb-3 border-b-2 border-[#005bbb]">
