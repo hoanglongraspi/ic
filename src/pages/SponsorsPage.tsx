@@ -28,6 +28,28 @@ export default function SponsorsPage() {
             </div>
           </div>
 
+          {/* Gold */}
+          <div className="bg-white border-2 border-gray-200 rounded p-8">
+            <h2 className="text-2xl font-bold text-gray-800 mb-6 pb-3 border-b-2 border-[#005bbb]">
+              Gold Sponsors
+            </h2>
+            <div className="flex flex-wrap gap-6">
+              <a
+                href="https://singleron.bio/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center bg-gray-50 border border-gray-200 rounded p-6 hover:border-[#005bbb] transition-colors"
+                style={{ minWidth: 200, maxWidth: 300 }}
+              >
+                <img
+                  src="/singleron.png"
+                  alt="Singleron"
+                  className="max-h-20 max-w-full object-contain"
+                />
+              </a>
+            </div>
+          </div>
+
           {/* Silver */}
           <div className="bg-white border-2 border-gray-200 rounded p-8">
             <h2 className="text-2xl font-bold text-gray-800 mb-6 pb-3 border-b-2 border-[#005bbb]">
@@ -44,19 +66,6 @@ export default function SponsorsPage() {
                 <img
                   src="/silver.png"
                   alt="Computational and Structural Biotechnology Journal"
-                  className="max-h-20 max-w-full object-contain"
-                />
-              </a>
-              <a
-                href="https://singleron.bio/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center justify-center bg-gray-50 border border-gray-200 rounded p-6 hover:border-[#005bbb] transition-colors"
-                style={{ minWidth: 200, maxWidth: 300 }}
-              >
-                <img
-                  src="/singleron.png"
-                  alt="Singleron"
                   className="max-h-20 max-w-full object-contain"
                 />
               </a>

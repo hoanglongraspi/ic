@@ -173,7 +173,7 @@ export default function TravelPage() {
                 Special Conference Room Rate
               </h4>
               <p className="text-red-600 mb-3">
-                Our original discounted room block has been fully booked. However, we now have a few additional rooms available at a new rate of <span className="font-semibold">$209.00 plus tax</span>.
+                Our hotel room blocks with discounted rate are mostly booked. However, we now have a few additional rooms available at a new rate of <span className="font-semibold">$209.00 plus tax</span>.
               </p>
               <p className="text-gray-700 mb-3">
                 The special rate will be available once the booking dates are adjusted to fall within August 1 to August 6.
@@ -236,6 +236,77 @@ export default function TravelPage() {
             >
               Open in Google Maps →
             </a>
+
+            <div className="mt-8 border-t border-gray-200 pt-6">
+              <h3 className="text-xl font-bold text-gray-800 mb-4">
+                Alternative Hotels
+              </h3>
+              <p className="text-gray-700 mb-4">
+                Here are several other hotels near the conference site:
+              </p>
+              <ul className="list-disc pl-5 space-y-2 text-gray-700">
+                <li>
+                  <a
+                    href="https://www.google.com/maps/search/Hyatt+Regency+Buffalo"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-[#005bbb] hover:underline"
+                  >
+                    Hyatt Regency Buffalo
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.google.com/maps/search/Wyndham+Garden+Buffalo+Downtown"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-[#005bbb] hover:underline"
+                  >
+                    Wyndham Garden Buffalo Downtown
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.google.com/maps/search/Residence+Inn+by+Marriott+Buffalo+Downtown"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-[#005bbb] hover:underline"
+                  >
+                    Residence Inn by Marriott Buffalo Downtown
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.google.com/maps/search/Aloft+by+Marriott+Buffalo+Downtown"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-[#005bbb] hover:underline"
+                  >
+                    Aloft by Marriott Buffalo Downtown
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.google.com/maps/search/Holiday+Inn+Express+%26+Suites+Buffalo+Downtown+-+Medical+Ctr+by+IHG"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-[#005bbb] hover:underline"
+                  >
+                    Holiday Inn Express & Suites Buffalo Downtown - Medical Ctr by IHG
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.google.com/maps/search/Embassy+Suites+by+Hilton+Buffalo"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-[#005bbb] hover:underline"
+                  >
+                    Embassy Suites by Hilton Buffalo
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
 
           <div className="bg-white border-2 border-gray-200 rounded p-8">
