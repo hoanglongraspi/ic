@@ -73,6 +73,19 @@ export default function SponsorsPage() {
                   className="max-h-20 max-w-full object-contain"
                 />
               </a>
+              <a
+                href="https://www.10xgenomics.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center bg-gray-50 border border-gray-200 rounded p-6 hover:border-[#005bbb] transition-colors"
+                style={{ minWidth: 200, maxWidth: 300 }}
+              >
+                <img
+                  src="/10xgenomics.avif"
+                  alt="10x Genomics"
+                  className="max-h-20 max-w-full object-contain"
+                />
+              </a>
             </div>
           </div>
 

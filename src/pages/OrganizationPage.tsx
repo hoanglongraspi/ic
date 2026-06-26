@@ -38,7 +38,7 @@ export default function OrganizationPage() {
               <li>Han Liang, The University of Texas MD Anderson Cancer Center</li>
               <li>Yun Li, University of North Carolina at Chapel Hill</li>
               <li>Rong Xu, Case Western Reserve University; Case Comprehensive Cancer Center</li>
-              <li>Chongzhi Zang, UVA Comprehensive Cancer Center, University of Virginia</li>
+              <li>Chongzhi Zang, University of Virginia</li>
             </ul>
           </div>
 

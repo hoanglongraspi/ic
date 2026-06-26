@@ -1,5 +1,5 @@
 export default function TravelPage() {
-  const bookingUrl = "https://group.hiltongardeninn.com/jen4qr";
+  const bookingUrl = "https://group.hiltongardeninn.com/n8j72t";
   const hotelMapUrl =
     "https://www.google.com/maps/place/Hilton+Garden+Inn+Buffalo+Downtown/@42.8861051,-78.8740023,17z/data=!4m9!3m8!1s0x89d31248f4a50a2d:0x4ebbf6168ff66b79!5m2!4m1!1i2!8m2!3d42.8861051!4d-78.8740023!16s%2Fg%2F11bbx073ds";
   const mapEmbedUrl =
@@ -173,8 +173,10 @@ export default function TravelPage() {
                 Special Conference Room Rate
               </h4>
               <p className="text-red-600 mb-3">
-                <span className="font-semibold">$149 + tax and fees</span> — 2
-                Queen or King
+                Our original discounted room block has been fully booked. However, we now have a few additional rooms available at a new rate of <span className="font-semibold">$209.00 plus tax</span>.
+              </p>
+              <p className="text-gray-700 mb-3">
+                The special rate will be available once the booking dates are adjusted to fall within August 1 to August 6.
               </p>
               <p className="text-gray-700">
                 Reservation details: please use this{" "}

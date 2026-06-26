@@ -79,10 +79,10 @@ export default function HomePage() {
     },
     {
       name: "Chongzhi Zang, Ph.D.",
-      title: "Associate Professor of Genome Sciences; Director of Computational Genomics",
-      institution: "UVA Comprehensive Cancer Center, University of Virginia",
+      title: "Professor of Genome Sciences; Director of Computational Genomics, UVA Comprehensive Cancer Center",
+      institution: "University of Virginia",
       image: "/DrZang.png",
-      homepage: "https://engineering.virginia.edu/faculty/chongzhi-zang",
+      homepage: "https://med.virginia.edu/faculty/faculty-listing/cz3d/",
     },
   ];
 
