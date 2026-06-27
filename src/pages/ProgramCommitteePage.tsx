@@ -66,6 +66,17 @@ export default function ProgramCommitteePage() {
     { first: "Min", last: "Zhao", affiliation: "University of the Sunshine Coast" },
     { first: "Cuncong", last: "Zhong", affiliation: "University of Kansas" },
     { first: "Qianqian", last: "Zhu", affiliation: "Roswell Park Comprehensive Cancer Center" },
+    { first: "Pijush Kanti", last: "Dutta Pramanik", affiliation: "National Institute of Technology Durgapur" },
+    { first: "Li", last: "Liu", affiliation: "Arizona State University" },
+    { first: "Jianhua", last: "Ruan", affiliation: "University of Texas at San Antonio" },
+    { first: "Li", last: "Shen", affiliation: "University of Pennsylvania" },
+    { first: "Mindy", last: "Shi", affiliation: "Temple University" },
+    { first: "Daling", last: "Shi", affiliation: "University of Florida" },
+    { first: "Wenyu", last: "Song", affiliation: "Brigham and Women's Hospital" },
+    { first: "Ece", last: "Uzun", affiliation: "Brown University" },
+    { first: "Min", last: "Xu", affiliation: "Carnegie Mellon University" },
+    { first: "Huihuang", last: "Yan", affiliation: "Mayo Clinic" },
+    { first: "Yunyun", last: "Zhou", affiliation: "Fox Chase" },
   ];
 
   return (
