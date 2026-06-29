@@ -12,9 +12,9 @@ export default function OrganizationPage() {
               General Chairs
             </h2>
             <ul className="space-y-2 text-gray-700">
+              <li>Qianqian Song, University of Florida</li>
               <li>Yijun Sun, SUNY Buffalo</li>
               <li>Zhongming Zhao, UTHealth Houston</li>
-              <li>Qianqian Song, University of Florida</li>
             </ul>
           </div>
 
@@ -35,8 +35,8 @@ export default function OrganizationPage() {
               Eminent Scholar Award Speakers
             </h2>
             <ul className="space-y-2 text-gray-700">
-              <li>Han Liang, The University of Texas MD Anderson Cancer Center</li>
               <li>Yun Li, University of North Carolina at Chapel Hill</li>
+              <li>Han Liang, The University of Texas MD Anderson Cancer Center</li>
               <li>Rong Xu, Case Western Reserve University; Case Comprehensive Cancer Center</li>
               <li>Chongzhi Zang, University of Virginia</li>
             </ul>
@@ -48,8 +48,8 @@ export default function OrganizationPage() {
             </h2>
             <ul className="space-y-2 text-gray-700">
               <li>Michael Buck, SUNY Buffalo</li>
-              <li>Hongbo Liu, University of Rochester</li>
               <li>Lu Li, SUNY Buffalo</li>
+              <li>Hongbo Liu, University of Rochester</li>
               <li>Wenyao Xu, SUNY Buffalo</li>
             </ul>
           </div>
@@ -117,10 +117,10 @@ export default function OrganizationPage() {
               Tutorial Committee
             </h2>
             <ul className="space-y-2 text-gray-700">
-              <li>Daofeng Li, Washington University in St. Louis</li>
-              {/* <li>Maximilian Haeussler, UCSC Genome Browser</li>
               <li>Riyue Bao, University of Pittsburgh</li>
-              <li>Qiyun Zhu, Arizona State University</li> */}
+              <li>Maximilian Haeussler, UCSC Genome Browser</li>
+              <li>Daofeng Li, Washington University in St. Louis</li>
+              <li>Qiyun Zhu, Arizona State University</li>
             </ul>
           </div>
 
@@ -129,8 +129,8 @@ export default function OrganizationPage() {
               Award Committee
             </h2>
             <ul className="space-y-2 text-gray-700">
-              <li>Huihuang Yan, Mayo Clinic</li>
               <li>Kai Wang, University of Pennsylvania</li>
+              <li>Huihuang Yan, Mayo Clinic</li>
             </ul>
           </div>
 
@@ -139,8 +139,8 @@ export default function OrganizationPage() {
               Future Scientist in AI Committee
             </h2>
             <ul className="space-y-2 text-gray-700">
-              <li>Chi Zhang, Oregon Health &amp; Science University</li>
               <li>Jingwen Yan, Indiana University</li>
+              <li>Chi Zhang, Oregon Health &amp; Science University</li>
             </ul>
           </div>
 
