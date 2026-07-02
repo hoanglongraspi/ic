@@ -322,6 +322,12 @@ export default function TravelPage() {
                   campus. The airport offers numerous daily flights from major
                   cities across North America.
                 </p>
+                <p className="mt-2">
+                  Taxi and rideshare services, including Uber and Lyft, are readily available at Buffalo Niagara International Airport. Attendees may also use NFTA-Metro Bus Route 24 Genesee, which provides public transportation service between the airport area and downtown Buffalo. Please check the official NFTA-Metro Route 24 schedule for the most current route and timing information:{" "}
+                  <a href="https://metro.nfta.com/schedules/route/24" target="_blank" rel="noopener noreferrer" className="text-[#005bbb] hover:underline break-all">
+                    https://metro.nfta.com/schedules/route/24
+                  </a>
+                </p>
               </div>
               <div>
                 <h3 className="font-bold mb-2">By Car</h3>
@@ -411,6 +417,13 @@ export default function TravelPage() {
                   Open walking directions in Google Maps →
                 </a>
               </div>
+
+              <div>
+                <h3 className="font-bold mb-2">By Car</h3>
+                <p className="leading-relaxed mb-3">
+                  For attendees driving to the conference venue, paid parking is available at the garage located at 854 Ellicott Street, Buffalo, NY.
+                </p>
+              </div>
             </div>
           </div>
 
@@ -418,13 +431,29 @@ export default function TravelPage() {
             <h2 className="text-2xl font-bold text-gray-800 mb-4 pb-3 border-b-2 border-[#005bbb]">
               Local Transportation
             </h2>
-            <div className="space-y-2 text-gray-700">
+            <div className="space-y-4 text-gray-700">
               <p>
-                • Taxi and rideshare services (Uber, Lyft) are readily available
+                Attendees can use NFTA-Metro bus and rail service, rideshare services, taxis, or personal vehicles for local transportation in Buffalo. NFTA-Metro provides public transportation throughout the Buffalo area. Regular fare is $2.00 for a single ride, and a day or week pass is available for unlimited travel per day/week. For current fares, passes, ticket-purchase options, and route planning, please visit the official NFTA-Metro website:{" "}
+                <a href="https://metro.nfta.com/fares/fare-info" target="_blank" rel="noopener noreferrer" className="text-[#005bbb] hover:underline break-all">
+                  https://metro.nfta.com/fares/fare-info
+                </a>
               </p>
-              <p>• NFTA Metro Rail and bus system serves the Buffalo area</p>
               <p>
-                • Rental cars available at the airport and throughout the city
+                Attendees are encouraged to check the latest schedules and fare information before travel.
+              </p>
+            </div>
+          </div>
+
+          <div className="bg-white border-2 border-gray-200 rounded p-8">
+            <h2 className="text-2xl font-bold text-gray-800 mb-4 pb-3 border-b-2 border-[#005bbb]">
+              Buffalo Niagara International Airport and Local Tourism Information
+            </h2>
+            <div className="space-y-4 text-gray-700">
+              <p>
+                Buffalo Niagara International Airport provides information on ground transportation and links to official local tourism resources. Visitors interested in exploring the Buffalo Niagara region before or after the conference may refer to Visit Buffalo Niagara, Destination Niagara USA, and Niagara Falls tourism resources through the airport tourism page:{" "}
+                <a href="https://www.buffaloairport.com/parking-and-transportation/tourism" target="_blank" rel="noopener noreferrer" className="text-[#005bbb] hover:underline break-all">
+                  https://www.buffaloairport.com/parking-and-transportation/tourism
+                </a>
               </p>
             </div>
           </div>
