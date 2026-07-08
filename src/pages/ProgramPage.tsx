@@ -36,7 +36,7 @@ export default function ProgramPage() {
             While we do not expect major changes to the program, the schedule remains subject to minor updates before the conference. If you have any difficulty presenting on your assigned day or during your assigned session, please contact the Workshop Chairs or the organizing committee as soon as possible so that we can review the situation.
           </p> */}
           <p>
-            Additional information, including detailed instructions for preparing oral and poster presentations, will be sent soon. Regular oral presentations are scheduled for <strong>20 minutes total, including Q&A</strong>, and flash talks are scheduled for <strong>10 minutes total</strong>. Due to the tight program schedule, we kindly ask all presenters to keep their presentations within the assigned time limits.
+            Additional information, including detailed instructions for preparing oral and poster presentations, will be sent soon and update here. Regular oral presentations are scheduled for <strong>20 minutes total, including Q&A</strong>, and flash talks are scheduled for <strong>10 minutes total</strong>. Due to the tight program schedule, we kindly ask all presenters to keep their presentations within the assigned time limits - no exception. For the speakers of workshops, please also contact your workshop chairs for specific plan and requirements.
           </p>
           <p>
             If you have any questions, please contact either Workshop Chairs, or us (<a href="mailto:icibm.common@gmail.com" className="underline">icibm.common@gmail.com</a>, <a href="mailto:qsong1@ufl.edu" className="underline">qsong1@ufl.edu</a>, and <a href="mailto:lli59@buffalo.edu" className="underline">lli59@buffalo.edu</a>).
