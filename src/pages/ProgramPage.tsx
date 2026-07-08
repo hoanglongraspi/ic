@@ -6,15 +6,35 @@ export default function ProgramPage() {
 
         <div className="bg-blue-50 border-l-4 border-[#005bbb] p-6 rounded mb-8 text-blue-800 space-y-4">
           <p>
-            As we are approaching ICIBM 2026, we are pleased to announce that the draft{" "}
-            <a href="/ICIBM_2026_Program_at_a_Glance.pdf" target="_blank" rel="noopener noreferrer" className="underline font-bold hover:text-blue-900">
-              Program at a Glance (PDF)
-            </a>{" "}
-            is now available. The full program will be released soon.
+            The program at a glance (updated on 7/1/2026) can be downloaded from{" "}
+            <a
+              href="/ICIBM_2026_Program_at_a_Glance.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline font-bold hover:text-blue-900"
+            >
+              here
+            </a>
+            .
+          </p>
+          <p>
+            The ICIBM 2026 Program Book (updated on 7/7/2026) can be downloaded from{" "}
+            <a
+              href="/ICIBM_2026_Full_Program_07_07.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline font-bold hover:text-blue-900"
+            >
+              here
+            </a>
+            .
+          </p>
+          {/* <p>
+            As we are approaching ICIBM 2026, we are pleased to announce that the draft Program at a Glance (PDF) is now available. The full program will be released soon.
           </p>
           <p>
             While we do not expect major changes to the program, the schedule remains subject to minor updates before the conference. If you have any difficulty presenting on your assigned day or during your assigned session, please contact the Workshop Chairs or the organizing committee as soon as possible so that we can review the situation.
-          </p>
+          </p> */}
           <p>
             Additional information, including detailed instructions for preparing oral and poster presentations, will be sent soon. Regular oral presentations are scheduled for <strong>20 minutes total, including Q&A</strong>, and flash talks are scheduled for <strong>10 minutes total</strong>. Due to the tight program schedule, we kindly ask all presenters to keep their presentations within the assigned time limits.
           </p>

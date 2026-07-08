@@ -172,23 +172,11 @@ export default function TravelPage() {
               <h4 className="font-bold text-gray-800 mb-2">
                 Special Conference Room Rate
               </h4>
-              <p className="text-red-600 mb-3">
-                Our hotel room blocks with discounted rate are mostly booked. However, we now have a few additional rooms available at a new rate of <span className="font-semibold">$209.00 plus tax</span>.
-              </p>
-              <p className="text-gray-700 mb-3">
-                The special rate will be available once the booking dates are adjusted to fall within August 1 to August 6.
+              <p className="text-red-600 font-semibold mb-3">
+                The ICIBM 2026 discounted hotel room block at the Hilton Garden Inn Buffalo Downtown has been fully booked.
               </p>
               <p className="text-gray-700">
-                Reservation details: please use this{" "}
-                <a
-                  href={bookingUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-[#005bbb] font-semibold hover:underline"
-                >
-                  Special Link
-                </a>{" "}
-                to make a reservation.
+                A limited number of additional rooms may still be available at the Hilton Garden Inn Buffalo Downtown at the current regular rate, subject to availability. Attendees who still need accommodation are encouraged to book as soon as possible. Several alternative hotels near the conference venue are also listed below for your convenience.
               </p>
             </div>
 
