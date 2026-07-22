@@ -35,15 +35,15 @@ export default function SponsorsPage() {
             </h2>
             <div className="flex flex-wrap gap-6">
               <a
-                href="https://singleron.bio/"
+                href="https://www.completegenomics.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center bg-gray-50 border border-gray-200 rounded p-6 hover:border-[#005bbb] transition-colors"
                 style={{ minWidth: 200, maxWidth: 300 }}
               >
                 <img
-                  src="/singleron.png"
-                  alt="Singleron"
+                  src="/mgi_us.png"
+                  alt="MGI US"
                   className="max-h-20 max-w-full object-contain"
                 />
               </a>
@@ -57,6 +57,19 @@ export default function SponsorsPage() {
                 <img
                   src="/pixelgen.png"
                   alt="Pixelgen"
+                  className="max-h-20 max-w-full object-contain"
+                />
+              </a>
+              <a
+                href="https://singleron.bio/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center bg-gray-50 border border-gray-200 rounded p-6 hover:border-[#005bbb] transition-colors"
+                style={{ minWidth: 200, maxWidth: 300 }}
+              >
+                <img
+                  src="/singleron.png"
+                  alt="Singleron"
                   className="max-h-20 max-w-full object-contain"
                 />
               </a>
