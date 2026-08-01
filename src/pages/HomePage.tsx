@@ -57,13 +57,6 @@ export default function HomePage() {
 
   const eminentScholarSpeakers = [
     {
-      name: "Han Liang, Ph.D.",
-      title: "Barnhart Family Distinguished Professor in Targeted Therapies; Interim Chair, Department of Bioinformatics and Computational Biology",
-      institution: "The University of Texas MD Anderson Cancer Center",
-      image: "/Drliang.jpg",
-      homepage: "https://faculty.mdanderson.org/profiles/liang_han.html",
-    },
-    {
       name: "Yun Li, Ph.D.",
       title: "Professor of Genetics; Professor of Biostatistics",
       institution: "University of North Carolina at Chapel Hill",
@@ -71,11 +64,11 @@ export default function HomePage() {
       homepage: "https://sph.unc.edu/adv_profile/yun-li-phd/",
     },
     {
-      name: "Zemin Zhang, Ph.D.",
-      title: "Professor of Genomics",
-      institution: "Peking University",
-      image: "/DrZeminZhang.png",
-      homepage: "https://icg.pku.edu.cn/en/research/faculty/62icg_en269363.htm",
+      name: "Han Liang, Ph.D.",
+      title: "Barnhart Family Distinguished Professor in Targeted Therapies; Interim Chair, Department of Bioinformatics and Computational Biology",
+      institution: "The University of Texas MD Anderson Cancer Center",
+      image: "/Drliang.jpg",
+      homepage: "https://faculty.mdanderson.org/profiles/liang_han.html",
     },
     {
       name: "Chongzhi Zang, Ph.D.",
@@ -83,6 +76,13 @@ export default function HomePage() {
       institution: "University of Virginia",
       image: "/DrZang.png",
       homepage: "https://med.virginia.edu/faculty/faculty-listing/cz3d/",
+    },
+    {
+      name: "Zemin Zhang, Ph.D.",
+      title: "Professor of Genomics",
+      institution: "Peking University",
+      image: "/DrZeminZhang.png",
+      homepage: "https://icg.pku.edu.cn/en/research/faculty/62icg_en269363.htm",
     },
   ];
 

@@ -37,8 +37,8 @@ export default function OrganizationPage() {
             <ul className="space-y-2 text-gray-700">
               <li>Yun Li, University of North Carolina at Chapel Hill</li>
               <li>Han Liang, The University of Texas MD Anderson Cancer Center</li>
-              <li>Zemin Zhang, Peking University</li>
               <li>Chongzhi Zang, University of Virginia</li>
+              <li>Zemin Zhang, Peking University</li>
             </ul>
           </div>
 
