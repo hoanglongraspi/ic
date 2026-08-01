@@ -71,11 +71,11 @@ export default function HomePage() {
       homepage: "https://sph.unc.edu/adv_profile/yun-li-phd/",
     },
     {
-      name: "Rong Xu, Ph.D.",
-      title: "Professor of Biomedical Informatics; Director, Center for AI in Drug Discovery",
-      institution: "Case Western Reserve University; Case Comprehensive Cancer Center",
-      image: "/Drrongxu.png",
-      homepage: "https://case.edu/cancer/members/member-directory/rong-xu",
+      name: "Zemin Zhang, Ph.D.",
+      title: "Professor of Genomics",
+      institution: "Peking University",
+      image: "/DrZeminZhang.png",
+      homepage: "https://icg.pku.edu.cn/en/research/faculty/62icg_en269363.htm",
     },
     {
       name: "Chongzhi Zang, Ph.D.",
