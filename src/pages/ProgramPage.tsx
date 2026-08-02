@@ -30,9 +30,9 @@ export default function ProgramPage() {
             .
           </p>
           <p>
-            The ICIBM 2026 Program Book (updated on 7/23/2026) can be downloaded from{" "}
+            The ICIBM 2026 Program Book (updated on 08/01/2026) can be downloaded from{" "}
             <a
-              href="/ICIBM2026_Program_Book_07_23_2026.pdf"
+              href="/ICIBM2026_Program_Book.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="underline font-bold hover:text-blue-900"
