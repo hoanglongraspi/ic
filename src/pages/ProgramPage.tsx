@@ -6,9 +6,21 @@ export default function ProgramPage() {
 
         <div className="bg-blue-50 border-l-4 border-[#005bbb] p-6 rounded mb-8 text-blue-800 space-y-4">
           <p>
-            The program at a glance (updated on 7/23/2026) can be downloaded from{" "}
+            The program at a glance (updated on 08/01/2026) can be downloaded from{" "}
             <a
-              href="/ICIBM2026_program_schedule_07_23_2026.pdf"
+              href="/ICIBM_2026_Program_at_a_Glance.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline font-bold hover:text-blue-900"
+            >
+              here
+            </a>
+            .
+          </p>
+          <p>
+            The ICIBM 2026 Program Schedule (updated on 08/01/2026) can be downloaded from{" "}
+            <a
+              href="/ICIBM2026_Program_Schedule.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="underline font-bold hover:text-blue-900"
