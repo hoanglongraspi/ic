@@ -29,7 +29,7 @@ export default function Navbar() {
       ],
     },
     { path: "/travel", label: "Travel" },
-    { path: "/sponsors", label: "Sponsors" },
+    // { path: "/sponsors", label: "Sponsors" },
     { path: "/past-conferences", label: "Past ICIBM" },
     { path: "/contact", label: "Contact" },
   ];
